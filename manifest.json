@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "name": "DarkFinance",
+  "version": "0.0.1",
+  "description": "Устал получать флешку в лицо каждый раз когда смотришь расписание финашки? Эта штука решает эту проблему.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://ruz.fa.ru/*"],
+      "css": ["darktheme.css"]
+    }
+  ]
+}

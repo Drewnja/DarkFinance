@@ -1,0 +1,163 @@
+/* Dark mode styles for RUZ - Расписание Учебных Занятий */
+
+/* Set dark background and light text for the entire page */
+body {
+    background-color: #1a1a1a !important;
+
+}
+
+/* Style the root element */
+ruz-root {
+    background-color: #1a1a1a !important;
+}
+
+/* Adjust loader background */
+.banter-loader-bg {
+    background-color: #2a2a2a !important;
+}
+
+/* Style loader boxes */
+.banter-loader__box {
+    background-color: #4a4a4a !important;
+}
+
+/* Style links */
+a {
+    color: #4a9eff !important;
+}
+
+a:hover {
+    color: #6ab0ff !important;
+}
+
+/* Style input fields */
+input, select, textarea {
+    background-color: #2a2a2a !important;
+
+    border: 1px solid #4a4a4a !important;
+}
+
+.container-fluid {
+    background-color: #1a1a1a !important;
+    color: #1a1a1a !important;
+}
+
+/* Style buttons */
+button {
+    background-color: #3a3a3a !important;
+    color: lightgray !important;
+
+    border: 1px solid #5a5a5a !important;
+}
+
+button :active {
+    background-color: #757575 !important;
+    color: lightgray !important;
+
+    border: 1px solid #5a5a5a !important;
+}
+
+button:hover {
+    background-color: #4a4a4a !important;
+}
+
+.day {
+    color: lightgrey !important;
+}
+
+.time {
+    color: lightgrey !important;
+}
+
+/* Style tables */
+table {
+    background-color: #2a2a2a !important;
+
+}
+
+th {
+    background-color: #3a3a3a !important;
+}
+
+tr:nth-child(even) {
+    background-color: #2f2f2f !important;
+}
+
+/* Style modal or popup windows */
+.modal, .popup {
+    background-color: #2a2a2a !important;
+    border: 1px solid #4a4a4a !important;
+}
+
+/* Adjust header and footer if present */
+header, footer {
+    background-color: #2a2a2a !important;
+    color: #1a1a1a !important;
+
+}
+
+.navbar {
+    background-color: #1a1a1a !important;
+    color: lightgrey !important;
+    
+}
+
+.input {
+    color: lightgrey !important;    
+}
+
+.ui-inputtext {
+    color: lightgrey !important;
+}
+
+/* Style for any custom classes or IDs specific to RUZ */
+.ruz-specific-class {
+    background-color: #2a2a2a !important;
+
+}
+
+#ruz-specific-id {
+    background-color: #2a2a2a !important;
+
+}
+
+/* Additional styles to ensure text readability */
+* {
+
+}
+
+/* Override any light backgrounds */
+div, span, p, h1, h2, h3, h4, h5, h6 {
+    background-color: transparent !important;
+}
+
+body, div, section {
+    background-image: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #2a2a2a;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5a5a5a;
+}
+table, th, td {
+    background-color: #2a2a2a !important;
+
+    border: 1px solid #727272 !important;
+}
+.info table 
+.info th 
+.info td  {
+    background-color: #1a1a1a !important;
+    color: lightgrey !important;
+
+    border: 10px solid #727272 !important;
+}
+
+div.box.ng-star-inserted  {
+    background-color: #2a2a2a !important;
+}
