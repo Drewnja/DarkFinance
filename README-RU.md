@@ -27,5 +27,5 @@ made with 💚 by [Drewnja](https://github.com/Drewnja)
 4. #### Тыкаем кнопку загрузить распакованный архив и выбираем папку, где скачали.
 
 ## Разработка
-Если хотите че то подпилить, то там всё просто, чиатй [английский README](https://github.com/Drewnja/DarkFinance/blob/main/README.md)
+Если хотите че то подпилить, то там всё просто, читай [английский README](https://github.com/Drewnja/DarkFinance/blob/main/README.md)
 
